@@ -324,9 +324,6 @@
     <ClCompile Include="16_danji.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="__16_zerosum.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="16_orders.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -364,6 +361,18 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="16_starship_maze.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="16_tram_2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="16_orders_2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="16_bugslife_2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="16_shredding_2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
