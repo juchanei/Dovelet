@@ -381,6 +381,12 @@
     <ClCompile Include="14_prime_path.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="14_dam.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="14_ccc_taller.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
