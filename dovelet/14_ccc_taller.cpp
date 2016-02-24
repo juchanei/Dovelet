@@ -40,7 +40,8 @@ int main()
 	for (int i = 0; i < nEdge; ++i){
 		int nodeA = 0;
 		int nodeB = 0;
-		cin >> nodeA >> nodeB;
+		scanf("%d%d", &nodeA, &nodeB);
+		//cin >> nodeA >> nodeB;
 
 		adjList.at(nodeA).push_back(nodeB);
 	}
