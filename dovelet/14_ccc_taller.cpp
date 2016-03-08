@@ -41,7 +41,6 @@ int main()
 		int nodeA = 0;
 		int nodeB = 0;
 		scanf("%d%d", &nodeA, &nodeB);
-		//cin >> nodeA >> nodeB;
 
 		adjList.at(nodeA).push_back(nodeB);
 	}
