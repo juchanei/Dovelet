@@ -18,20 +18,20 @@ int main()
 			newWorms += wt[i - aa - j][0];
 		}
 		wt[i][0] = newWorms % 1000;
-		wt[i + dd][1] = -(newWorms % 1000);
+		wt[i + dd][1] = -wt[i][0];
 	}
 
 	for (int i = bb; i <= nn; ++i){
 		newWorms += wt[i - aa][0];
 		newWorms -= wt[i - bb][0];
-		wt[i][0] = newWorms % 1000 + 10000;
-		wt[i + dd][1] = -(newWorms % 1000);
+		wt[i][0] = newWorms % 1000;
+		wt[i + dd][1] = -wt[i][0];
 	}
 
 	int nWorm = 0;
 	for (int i = 0; i <= nn; ++i){
 		nWorm += wt[i][0] + wt[i][1];
-		nWorm %= 1000;
+		nWorm = (nWorm + 1000) % 1000;
 	}
 	cout << nWorm << endl;
 
