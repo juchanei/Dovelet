@@ -396,6 +396,12 @@
     <ClCompile Include="21_worm.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="14_catch_cow_3.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="21_big_barn.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input.txt">
